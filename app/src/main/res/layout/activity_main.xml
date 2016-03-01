@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ui.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+
+    <Button
+        android:layout_width="120dp"
+        android:text="3D triangle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:onClick="click3d"
+        android:layout_height="50dp" />
+
+    <Button
+        android:layout_width="120dp"
+        android:text="3D square"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:onClick="click3dsquare"
+        android:layout_height="50dp" />
+    <Button
+        android:layout_width="120dp"
+        android:text="3D sapmle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:onClick="clicksample"
+        android:layout_height="50dp" />
+    <Button
+        android:layout_width="120dp"
+        android:text="3D cube"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:onClick="clickCubo"
+        android:layout_height="50dp" />
+    <Button
+        android:layout_width="120dp"
+        android:text="3D modelload"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="320dp"
+        android:onClick="clickmodel"
+        android:layout_height="50dp" />
+
+</RelativeLayout>
